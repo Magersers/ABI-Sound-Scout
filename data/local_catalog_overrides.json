@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "game_data_version": "1.0.0.151.22",
+  "source_sha256": "7fccd5bb730d80f72ef0a17fcef69f1cfafb69bcdfd4e9aeb9d075e39f16a53b",
+  "sounds": [
+    {
+      "group_id": 39,
+      "acoustic_alias_group": 33,
+      "source_note": "Event names verified in local patch 1.0.0.151.22; public references are byte-identical to group 33.",
+      "pickup": "sounds/39_pickup.ogg",
+      "pickup_event": "Item_Necklace_Up",
+      "pickup_url": "https://cdn-abitracker.pages.dev/data/merchant/audio/948946180-d15249feefb06625.ogg?v=1.0.0.151.17",
+      "pickup_sha256": "119901f8aa84477b2abf49cda63693168128095ca9c54d66023736d876cc8467",
+      "pickup_bytes": 8219,
+      "drop": "sounds/39_drop.ogg",
+      "drop_event": "Item_Necklace_Down",
+      "drop_url": "https://cdn-abitracker.pages.dev/data/merchant/audio/159923898-1b3f127332d3b610.ogg?v=1.0.0.151.17",
+      "drop_sha256": "c2d7823f18907d6c6c3810113a39c6431893011c44fa4e04911d36268a378b8f",
+      "drop_bytes": 7243
+    }
+  ],
+  "items": {
+    "408080029": {
+      "name_en": "Gem Necklace",
+      "expected_pickup_event": "Item_GoldChain_Up",
+      "expected_drop_event": "Item_GoldChain_Down",
+      "pickup_event": "Item_Necklace_Up",
+      "drop_event": "Item_Necklace_Down",
+      "local_table_row_offset": 3790371
+    },
+    "498080019": {
+      "name_en": "Star of Kamona Pendant",
+      "expected_pickup_event": "Item_GoldChain_Up",
+      "expected_drop_event": "Item_GoldChain_Down",
+      "pickup_event": "Item_Necklace_Up",
+      "drop_event": "Item_Necklace_Down",
+      "local_table_row_offset": 3854271
+    }
+  }
+}

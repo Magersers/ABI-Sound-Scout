@@ -1,0 +1,32 @@
+ABI Sound Scout 0.4.0 — 11 November 2026
+
+Windows x64; Python 3.12.14; PyInstaller 6.22.3.
+
+82 automated source checks passed:
+  python -m unittest discover -s tests -v
+
+Coverage includes all primary reference clips with gain/noise/offset,
+catalog integrity and variants, Russian translation preservation,
+updater hashes, Raw Input state and lifecycle, audio error recovery,
+single instance, configurable keys and atomic preference persistence.
+
+Hidden Tk layout checks passed for all 41 opening keys and 59 merchant
+candidate pages. Requested size: main 602x706; overlay 718x540.
+The available windows are 820x720 and 900x550 respectively.
+
+Built the portable Windows executable with build.ps1, made the ZIP,
+extracted it into a separate directory and ran the EXE --self-test:
+  ok: true
+  frozen: true
+  items: 189
+  groups: 39
+  references: 156
+  audio formats: FLAC, OGG
+  toggle keys: 41
+  Tcl: 8.6.12
+  process exit code: 0
+
+The packaged check imports bundled runtime libraries, decodes all
+references, matches samples from both formats and checks each toggle key
+without opening a window, registering input or capturing live audio.
+This release was not retested in a live match during publication.

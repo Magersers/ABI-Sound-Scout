@@ -1,0 +1,4 @@
+# Runtime dependencies; tested with Python 3.12 x64 on Windows.
+numpy==2.5.4
+soundfile==0.14.0
+PyAudioWPatch==0.2.12.9

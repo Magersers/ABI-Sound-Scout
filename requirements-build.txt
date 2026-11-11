@@ -1,0 +1,3 @@
+# Optional: only needed to build a Windows executable.
+-r requirements.txt
+pyinstaller==6.22.3

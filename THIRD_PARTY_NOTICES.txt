@@ -1,0 +1,38 @@
+ABI SOUND SCOUT — THIRD-PARTY NOTICES
+
+The application Python source was written for this project. No code from
+other ABI companion projects was copied into the application.
+
+Runtime library licenses, checked against installed package metadata:
+- NumPy 2.5.4: BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0.
+- SoundFile 0.14.0: BSD-3-Clause. Its bundled libsndfile is LGPL-2.1;
+  the library source is available at https://github.com/libsndfile/libsndfile.
+- PyAudioWPatch 0.2.12.9: Apache-2.0 (copyright S0D3S); based on
+  PyAudio/PortAudio. PortAudio uses an MIT-style license.
+- CFFI 2.1.1: MIT-0. pycparser 3.12: BSD-3-Clause.
+- Python: PSF license; Tcl/Tk: their own permissive license notices.
+
+Build tool:
+- PyInstaller 6.22.3: GPLv2-or-later with its distribution exception;
+  some files have Apache-2.0 terms. It is not required to run the EXE.
+
+Full notices collected from the installed distributions are in licenses/.
+The original distributions may contain additional notices for bundled
+binary components; those notices remain applicable.
+
+Game data and sound references are separate from the application code:
+https://abibuilder.com/merchant
+ABI Builder credits Maoyan / ABI Tracker:
+https://abi-tracker.azurewebsites.net/GameInfo/Merchant?lang=en
+Game assets belong to Tencent Games / Morefun Studios under the source's
+notice: https://abibuilder.com/terms
+No open redistribution license for the game data/audio was found.
+The audio files are short reference clips for local matching. Application
+source-code or dependency licenses do not grant rights in game assets.
+Direct audio URLs and hashes are recorded in data/catalog.json.
+
+This release also includes 76 local game audio references converted
+losslessly to FLAC, plus item names read from the installed localization.
+Their provenance is recorded in data/LOCAL_AUDIO_MANIFEST.json and
+data/ITEM_SOUND_MAP.json. Research-only tools (CUE4Parse format references,
+wwiser, OodleUE, vgmstream) are not bundled or required at runtime.

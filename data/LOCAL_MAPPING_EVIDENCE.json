@@ -1,0 +1,67 @@
+{
+  "source_file": "work\\game_deep_inspect\\extracted\\UACommonItemTable_patch22.uexp",
+  "source_sha256": "7fccd5bb730d80f72ef0a17fcef69f1cfafb69bcdfd4e9aeb9d075e39f16a53b",
+  "local_version": "1.0.0.151.22",
+  "declared_and_parsed_rows": 16758,
+  "all_row_name_keys_match_ids": true,
+  "known_merchant_event_pairs_unchanged": 187,
+  "corrected_items": [
+    {
+      "id": 408080029,
+      "name_en": "Gem Necklace",
+      "name_ru": "Ожерелье с камнями",
+      "old_events": [
+        "Item_GoldChain_Up",
+        "Item_GoldChain_Down"
+      ],
+      "local_events": [
+        "Item_Necklace_Up",
+        "Item_Necklace_Down"
+      ],
+      "row_offset": 3790371,
+      "row_end_offset": 3791936,
+      "pickup_property_tag_offset": 3790868,
+      "drop_property_tag_offset": 3790945,
+      "name_namespace": "UACommonItemTable",
+      "name_key": "408080029_Name"
+    },
+    {
+      "id": 498080019,
+      "name_en": "Star of Kamona Pendant",
+      "name_ru": "Кулон «Звезда Камоны»",
+      "old_events": [
+        "Item_GoldChain_Up",
+        "Item_GoldChain_Down"
+      ],
+      "local_events": [
+        "Item_Necklace_Up",
+        "Item_Necklace_Down"
+      ],
+      "row_offset": 3854271,
+      "row_end_offset": 3856166,
+      "pickup_property_tag_offset": 3855098,
+      "drop_property_tag_offset": 3855175,
+      "name_namespace": "UACommonItemTable",
+      "name_key": "498080019_Name"
+    }
+  ],
+  "public_reference_aliases": [
+    {
+      "event": "Item_Necklace_Up",
+      "reference_url": "https://cdn-abitracker.pages.dev/data/merchant/audio/948946180-d15249feefb06625.ogg?v=1.0.0.151.17",
+      "sha256": "119901f8aa84477b2abf49cda63693168128095ca9c54d66023736d876cc8467",
+      "old_group": 33,
+      "old_event": "Item_GoldChain_Up",
+      "reference_bytes_identical": true
+    },
+    {
+      "event": "Item_Necklace_Down",
+      "reference_url": "https://cdn-abitracker.pages.dev/data/merchant/audio/159923898-1b3f127332d3b610.ogg?v=1.0.0.151.17",
+      "sha256": "c2d7823f18907d6c6c3810113a39c6431893011c44fa4e04911d36268a378b8f",
+      "old_group": 33,
+      "old_event": "Item_GoldChain_Down",
+      "reference_bytes_identical": true
+    }
+  ],
+  "audio_limitation": "The local event names differ, but both public Necklace references are byte-identical to the corresponding GoldChain references. Do not claim acoustic distinguishability or that a new audible class was found."
+}
